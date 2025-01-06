@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.search-box {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid black;
+}
+
+.suggestion-box {
+  width: 20rem;
+  list-style-type: none;
+  border-top: none;
+}
+
+.suggestion-box li {
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.suggestion-box li:hover {
+  background-color: silver;
+}
