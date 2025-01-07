@@ -35,7 +35,6 @@ const renderImages = (images) => {
     const img = document.createElement('img');
     img.src = image;
     img.alt = 'photo';
-    console.log(img);
     imageBox.appendChild(img);
   });
 };
@@ -86,12 +85,22 @@ const applyRating = (rating) => {
   renderProducts(filterProducts);
 };
 
-inputBox.addEventListener('input', (e) => {
+function debounce(func, delay) {
+  let timeout;
+  return function (...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), delay);
+  };
+}
+
+const handleSearch = (e) => {
   const name = e.target.value.trim();
   const filterProducts = products.filter((product) =>
     product.title.toLowerCase().includes(name.toLowerCase())
   );
   renderProducts(filterProducts);
-});
+};
+
+inputBox.addEventListener('input', debounce(handleSearch, 250));
 
 fetchProducts();
