@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Products List</title>
+  </head>
+  <body>
+    <nav class="nav-container">
+      <span class="logo">Product List</span>
+      <ul class="navigation-container">
+        <li class="home-page"><a href="home.html">Home</a></li>
+        <li class="contact-page"><a href="contact.html">Contact</a></li>
+        <li class="about-us"><a href="about-us.html">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="search-container">
+      <input
+        class="input-search"
+        type="text"
+        placeholder="Search..."
+        autocomplete="off"
+      />
+      <div class="filter-btn-container">
+        <button onclick="applyRating(4)">4+ Ratings</button>
+        <button onclick="applyRating(3)">3+ Ratings</button>
+        <button onclick="applyRating(2)">2+ Ratings</button>
+      </div>
+    </div>
+    <div class="image-container">
+      <button class="prev-btn">⬅️</button>
+      <div class="image-box"></div>
+      <button class="next-btn">➡️</button>
+    </div>
+    <div class="product-list"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
