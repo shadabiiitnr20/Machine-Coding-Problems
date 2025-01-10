@@ -1,6 +1,6 @@
 let GRID_SIZE = 16;
-let food = getRandomFoodPosition();
 let EXPANSION_RATE = 4;
+let food = getRandomFoodPosition();
 
 import { onSnake, expandSnake } from './snake.js';
 
