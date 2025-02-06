@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border: 1px solid black;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.2rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.2rem;
+}
+
+.tab {
+  display: none;
+}
+
+.activeTab {
+  display: block;
+}
