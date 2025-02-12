@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.input-container {
+  margin: 0.5rem;
+  padding: 0.25rem;
+  display: flex;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.25rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.25rem;
+}
+
+.list-container {
+  margin: 1rem;
+  padding: 0.25rem;
+  border: 1px solid black;
+  width: 20rem;
+  height: 20rem;
+}
