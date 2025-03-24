@@ -1,0 +1,27 @@
+.child-container {
+  margin-left: 1rem;
+}
+
+.folder-container:hover {
+  cursor: pointer;
+}
+
+.add-folder {
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+}
+
+.add-folder:hover {
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+}
