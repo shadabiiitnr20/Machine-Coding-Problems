@@ -1,0 +1,25 @@
+.tabs-heading-container {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.tabs-heading-name {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tabs-heading-name:hover {
+  cursor: pointer;
+}
+
+.tabs-body-container {
+  border: 1px solid black;
+  margin-top: 0.5rem;
+  height: 10rem;
+  padding: 0.75rem;
+}
+
+.error-msg {
+  color: red;
+  padding: 4px;
+}
