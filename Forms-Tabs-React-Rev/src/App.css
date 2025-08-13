@@ -1,0 +1,36 @@
+.tabs-title-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tab-name {
+  border: 1px solid black;
+  padding: 0.25rem;
+}
+
+.tab-name:hover {
+  cursor: pointer;
+}
+
+.tab-content-container {
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  border: 1px solid black;
+  height: 20rem;
+}
+
+input[type='text'] {
+  margin-top: 1rem;
+}
+
+input[type='number'] {
+  margin-top: 1rem;
+}
+
+input[type='checkbox'] {
+  margin-top: 1rem;
+}
+
+.error-msg {
+  color: red;
+}

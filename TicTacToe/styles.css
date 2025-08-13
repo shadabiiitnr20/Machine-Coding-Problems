@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  margin: 1rem;
+  width: 8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.grid-cell {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.reset-btn {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.message {
+  margin: 1rem;
+}

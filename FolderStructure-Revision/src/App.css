@@ -1,0 +1,16 @@
+.folder-container {
+  margin-left: 8px;
+  padding: 4px;
+  margin-top: 4px;
+}
+.folder-name:hover {
+  cursor: pointer;
+}
+
+.add-btn {
+  margin-left: 8px;
+}
+
+.delete-btn {
+  margin-left: 8px;
+}
